@@ -1,7 +1,7 @@
 streamlit
 fredapi
 pandas
-tvDatafeed
+git+https://github.com/StreamAlpha/tvdatafeed.git
 deep-translator
 requests
 matplotlib
