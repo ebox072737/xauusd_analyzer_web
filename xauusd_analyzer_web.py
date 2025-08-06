@@ -21,7 +21,7 @@ FRED_API_KEY = "913e705eb7b2662d21f98066093a8a43"
 GROQ_API_KEY = "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"
 
 # === tvDatafeed 登入 ===
-tv = TvDatafeed(username="bill111880", password="Acbel@108261")
+tv = TvDatafeed()
 
 indicators = {
     "CPI": "CPIAUCSL",
@@ -192,3 +192,4 @@ with col2:
             ax.xaxis.set_major_formatter(mdates.DateFormatter('%m-%d %H:%M'))
             ax.grid(True, color='gray', linestyle='--', linewidth=0.5)
             st.pyplot(fig)
+
