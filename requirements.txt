@@ -1,0 +1,9 @@
+streamlit
+fredapi
+pandas
+tvDatafeed
+deep-translator
+requests
+matplotlib
+reportlab
+pyperclip
